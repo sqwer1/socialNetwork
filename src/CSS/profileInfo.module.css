@@ -1,0 +1,38 @@
+﻿.mainPhoto {
+	max-width: 250px;
+	grid-area: a;
+	align-self: start;
+	justify-self: start;
+}
+.loadImage {
+	grid-area: b;
+	align-self: start;
+	justify-self: start;
+}
+.profileG {
+	display: grid;
+	align-items: start;
+	justify-items: start;
+	grid-template-areas:
+			"a d"
+			"b d"
+			"c d";
+	grid-template-columns: 250px 1fr;
+	grid-template-rows: 260px 1fr 1fr;
+}
+.status {
+	grid-area: c;
+	align-self: start;
+	justify-self: start;
+}
+.profileDataG {
+	padding-left: 10px;
+	grid-area: d;
+	display: grid;
+}
+.profileData {
+	align-self: start;
+	justify-self: start;
+	text-align: left;
+	padding-bottom: 10px;
+}

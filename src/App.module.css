@@ -1,0 +1,94 @@
+﻿.App {
+	text-align: center;
+	display: grid;
+	grid-template-areas:
+	"t t"
+	"m a";
+	grid-template-rows: 60 px 1fr;
+	grid-template-columns: 2fr 10fr;
+	background-color: #f9f9f9;
+}
+.Top {
+	grid-area: t;
+	background-color: #f9f9f9;
+	font-family: Helvetica;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 700;
+}
+.TopG {
+	display: grid;
+	align-items: center;
+	justify-items: center;
+	grid-template-columns: 1fr 1fr;
+}
+.TopH {
+	align-self: center;
+	justify-self: start;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+.Authorization {
+	grid-area: a;
+	background-color: #f9f9f9;
+}
+.Menu {
+	grid-area: m;
+	display: grid;
+	background-color: #f9f9f9;
+	font-family: Helvetica;
+	font-size: 17px;
+	font-style: normal;
+	font-variant: normal;
+	padding-top: 10px;
+	align-items: center;
+	justify-items: center;
+	grid-template-columns: 1fr;
+}
+.MenuG {
+	align-self: center;
+	justify-self: start;
+	padding-left: 30px;
+}
+.Menu a {
+	text-decoration: none;
+	color: #5e5e5e;
+}
+.Menu a.active {
+	color: black;
+}
+.Outview {
+	grid-area: o;
+	background-color: red;
+}
+.Messages {
+	display: grid;
+	grid-template-columns: 2fr 10fr;
+}
+.loginBlock {
+	align-self: center;
+	justify-self: end;
+	float: right;
+	font-size: 18px;
+	font-weight: 400;
+	padding-right: 10px;
+	width: 300px;
+}
+.loginBlock a {
+	color: black;
+	float: right;
+}
+.button1 {
+	background-color: #f9f9f9;
+	border: 2px solid #4CAF50;
+	border-radius: 15px;
+	width: 100px;
+	font-family: Helvetica;
+	font-size: 18px;
+	font-weight: 400;
+}
+.loginBlockDiv {
+	float: right;
+}
